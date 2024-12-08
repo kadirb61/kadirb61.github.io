@@ -1,0 +1,120 @@
+main {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;     margin-bottom: 100px; 
+    margin-left: 50px;
+}
+.logo-container {
+    margin-left: 70px; /* Adjust the value as needed */
+}
+.branches-section {
+    margin-top: 30px; }
+
+
+.enquiry-form {
+    width: 100%;     max-width: 600px; }
+
+.enquiry-form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.enquiry-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+}
+
+.enquiry-form button {
+    background-color: #FF902B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enquiry-form button:hover {
+    background-color: #FF902B;
+}
+
+.branches-section {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.branch-item {
+    margin-bottom: 20px;
+}
+
+.branch-item h3 {
+    color: #FF902B;
+    margin-bottom: 10px;
+}
+
+.branch-item p {
+    margin-bottom: 5px;
+}
+
+.branch-item a {
+    color: #FF902B;
+    text-decoration: none;
+}
+
+.branch-item a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 50px 20px;     }
+
+    .enquiry-form {
+        max-width: 95%;         width: 95%;         padding: 20px;         margin: 0 auto 30px auto;     }
+    .enquiry-form input,
+    .enquiry-form textarea {
+        max-width: 100%;         padding: 10px;     }
+
+    .enquiry-form button {
+        padding: 12px 24px;         width: 100%;     }
+
+    .branches-section {
+        padding: 15px;     }
+
+    .enquiry-form h2 {
+        font-size: 1.5em;     }
+    .enquiry-form {
+        margin-top: 20px;     }
+    main h1 {
+        margin-top: 100px;     }
+}
+
+@media (max-width: 480px) {
+    .enquiry-form button {
+        padding: 10px 20px;     }
+    main h1 {
+        margin-top: 150px;     }
+    .enquiry-form input,
+    .enquiry-form textarea {
+        padding: 8px;     }
+
+    .enquiry-form h2 {
+        margin-top: 10px;
+        font-size: 1.3em;     }
+    .enquiry-form {
+        max-width: 100%;         padding: 15px;     }
+}
