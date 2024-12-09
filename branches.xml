@@ -1,4 +1,7 @@
 <!-- branches.xml -->
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE tutorials SYSTEM "branches.dtd">
+
 <branches>
     <branch>
         <address>76 Devonshire St, Surry Hills NSW</address>
