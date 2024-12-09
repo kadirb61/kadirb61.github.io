@@ -1,6 +1,6 @@
 <!-- branches.xml -->
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE tutorials SYSTEM "branches.dtd">
+<!DOCTYPE branches SYSTEM "branches.dtd">
 
 <branches>
     <branch>
