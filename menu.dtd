@@ -1,6 +1,8 @@
 <!-- menu.dtd -->
-<!ELEMENT menu (meal+)>
+<!ELEMENT menu (meal+, beverage*, otherBeverage*)>
 <!ELEMENT meal (name, price, description, image)>
+<!ELEMENT beverage (name, price, description, image)>
+<!ELEMENT otherBeverage (name, price, description, image)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
